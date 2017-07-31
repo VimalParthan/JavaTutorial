@@ -28,7 +28,6 @@ public class Main {
 		int intEx =  50;
 		
 		long longEx = 50000L + 10L * ( byteEx + shortEx + intEx);
-		
 		System.out.println("myNewLongValue = " + longEx);
 	}
 
