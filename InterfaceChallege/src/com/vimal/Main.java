@@ -11,7 +11,7 @@ public class Main {
 		System.out.println(tim.toString());
 		tim.setWeapon("Stormbringer");
 		saveObject(tim);
-		loadObject(tim);
+//		loadObject(tim);
 		System.out.println(tim.toString());
 		
 		ISaveable wereWolf = new Monster("Werewolf", 20, 40);
